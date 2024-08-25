@@ -8,7 +8,7 @@ Este repositorio contiene soluciones a diversos problemas de algoritmia de la pl
 - **Problemas**: Carpeta que contiene subcarpetas para cada problema.
   - Cada subcarpeta está nombrada de acuerdo con el identificador del problema en OmegaUP.
   - Dentro de cada subcarpeta, encontrarás:
-    - **solución.[lenguaje]**: Archivo con la solución del problema en el lenguaje especificado (por ejemplo, `solución.cpp`, `solución.py`).
+    - **solucion.[lenguaje]**: Archivo con la solución del problema en el lenguaje especificado (por ejemplo, `solucion.cpp`, `solucion.py`).
     - **README.md**: Archivo con una breve descripción del problema y la solución, junto con instrucciones para ejecutar el código.
 
 ## Estructura del Repositorio
@@ -18,10 +18,10 @@ Este repositorio contiene soluciones a diversos problemas de algoritmia de la pl
 ├── README.md
 ├── problemas
 │   ├── problema1
-│   │   ├── solución.cpp
+│   │   ├── solucion.cpp
 │   │   └── README.md
 │   ├── problema2
-│   │   ├── solución.py
+│   │   ├── solucion.py
 │   │   └── README.md
 │   └── ...
 └── ...
