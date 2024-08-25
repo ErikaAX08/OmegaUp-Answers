@@ -1,0 +1,36 @@
+# Archivos de compilación de C, C++, y otros lenguajes compilados
+*.out
+*.exe
+*.o
+*.obj
+*.gch
+*.class
+
+# Directorios de compilación
+bin/
+build/
+dist/
+
+# Archivos y carpetas de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de respaldo o temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de registro
+*.log
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos generados por IDEs y editores
+.vscode/
+.idea/
+*.iml
+*.project
+*.workspace
