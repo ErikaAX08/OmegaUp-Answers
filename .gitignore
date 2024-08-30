@@ -1,36 +1,39 @@
-# Archivos de compilación de C, C++, y otros lenguajes compilados
+# Ignorar archivos ejecutables de C/C++ y otros sin extensión
+# Ignora archivos ejecutables sin extensión en cualquier parte del proyecto
+*~
+
+# Ignorar cualquier archivo generado en directorios comunes de compilación
+bin/*
+build/*
+dist/*
+
+# Ignorar archivos ejecutables comunes con extensiones en otros sistemas operativos
 *.out
 *.exe
 *.o
 *.obj
 *.gch
-*.class
 
-# Directorios de compilación
+# Ignorar archivos y carpetas de compilación y temporales
+*.class
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignorar carpetas generadas por IDEs y compiladores
 bin/
 build/
 dist/
-
-# Archivos y carpetas de Python
 __pycache__/
-*.py[cod]
-
-# Archivos de respaldo o temporales
-*.swp
-*.swo
-*.bak
-*.tmp
-
-# Archivos de registro
-*.log
-
-# Archivos de sistemas operativos
-.DS_Store
-Thumbs.db
-
-# Archivos generados por IDEs y editores
 .vscode/
 .idea/
 *.iml
 *.project
 *.workspace
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
