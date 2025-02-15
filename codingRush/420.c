@@ -139,8 +139,6 @@ void printString(const char* str) {
     }
 }
 
-#define MAX_STRING 1001
-
 int main() {
     int m = readInt();
     getchar_unlocked();
